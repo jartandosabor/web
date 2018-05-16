@@ -1,0 +1,201 @@
+@font-face {
+    font-family: kalam-light-font;
+    src: url("../fonts/Kalam-Light.ttf");
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("../images/imgcalijartandosabor.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/San Antonio.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo-beige {
+    background: #F3DDB8;
+    width: 100%;
+    height: 50%;
+}
+
+.fondo-beige-clarito {
+    background: #FFEBD1;
+    width: 100%;
+    height: 50%;
+}
+
+.texto-historia {
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.imagen-gato {
+    top: 10%;
+    width: 60%;
+    height: 120%;
+    position: relative;
+
+}
+
+.imagen-historia {
+    top: -35%;
+    width: 75%;
+    height: 120%;
+    position: relative;
+}
+
+.fondo-beige-anaranjado {
+    background: #F4B989;
+    width: 100%;
+    height: 70%;
+}
+
+.imagen-cholado {
+    top: -30%;
+    width: 75%;
+    height: 110%;
+    position: relative;
+}
+
+.imagen-contactanos {
+    background-image: url("../images/Contactanos.png");
+    /* Full height */
+    width: 100%;
+    height: 50%;
+
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-links1 {
+    padding-left: 10%;
+    padding-top: 10%;
+    color: white;
+    font-size: 150%;
+    font-family: kalam-light-font;
+}
+
+.texto-links2 {
+    padding-left: 10%;
+    padding-top: 2%;
+    color: white;
+    font-size: 150%;
+    font-family: kalam-light-font;
+}
+
+.texto-links3 {
+    padding-left: 10%;
+    padding-top: 2%;
+    color: white;
+    font-size: 150%;
+    font-family: kalam-light-font;
+}
+
+.texto-contactanos {
+    padding-left: 45%;
+    padding-top: 8%;
+    color: white;
+    font-size: 250%;
+    font-family: kalam-light-font;
+}
+
+.by {
+    color: white;
+    padding-left: 2%;
+    font-family: kalam-light-font;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-image: url("../images/navbar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: kalam-light-font;
+    height: 11%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #12747E;
+    color: white;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #209E9F;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
