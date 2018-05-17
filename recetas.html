@@ -38,7 +38,7 @@
               <a class="nav-link" href="recetas.html">Recetas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Lugares</a>
+              <a class="nav-link" href="lugares.html">Lugares</a>
             </li>
           </ul>
         </div>
@@ -53,19 +53,19 @@
             <div class="row">
                 <div class="col-md-6 contenedor">
                     <p class="text-right">
-                        <img src="images/chontaficha.png" class="imagenes-vasos imagen" data-toggle="modal" data-target="#modal">
+                        <img src="images/chontaficha.png" class="imagenes-vasos imagen" data-toggle="modal" data-target="#myModal">
                     </p>
                 </div>
                 <div class="col-md-6">
                     <p class="text-left">
-                        <img src="images/lulaficha.png" class="imagenes-vasos imagen" data-toggle="modal" data-target="#modal1" >
+                        <img src="images/lulaficha.png" class="imagenes-vasos imagen" data-toggle="modal" data-target="#myModal1" >
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <p class="text-right">
-                        <img src="images/cholaficha.png" class="imagenes-vasos imagen" data-toggle="modal" data-target="#modal2">
+                        <img src="images/cholaficha.png" class="imagenes-vasos imagen" data-toggle="modal" data-target="#myModal2">
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -81,42 +81,85 @@
     </div>
 </body>
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal">
-    <div class="modal-dialog modal-lg">
-        <p class="text-center">
-                <iframe width="560" height="315" class="text-center" src="https://www.youtube.com/embed/HAjYfEKAM4Q?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                <br>
-                <br>
-                <img src="images/Receta chontaduro completa.png" class="imagen-show text-center" >
-        </p>
-  
-  </div>
-</div>
-
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal1">
+<div class="modal" id="myModal">
         <div class="modal-dialog modal-lg">
-            <p class="text-center">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sJuAxj4juIo?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    <br>
-                    <br>
-                    <img src="images/Receta Lulada completa.png" class="imagen-show text-center" >
-            </p>
+          <div class="modal-content">
       
-      </div>
-    </div>
-    
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal2">
-            <div class="modal-dialog modal-lg">
-                <p class="text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0NVRtSOOX_Y?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
-                        <br>
-                        <br>
-                        <img src="images/Receta chodalo completa.png" class="imagen-show text-center" >
-                </p>
-          
+            <!-- Modal Header -->
+            <div class="modal-header fondo-recetas">
+              <h4 class="texto-recetas">Jugo de chontaduro bien sabroso</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body fondo-recetas">
+                    <p class="text-center">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HAjYfEKAM4Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <br>
+                            <br>
+                            <img src="images/Receta chontaduro completa.png" class="imagen-show text-center" >
+                    </p>
+                    <br>
+            </div>
+      
+      
           </div>
         </div>
+      </div>
+
+      <div class="modal" id="myModal1">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header fondo-recetas">
+                  <h4 class="texto-recetas">Lulada bien bacana</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body fondo-recetas">
+                        <p class="text-center">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/sJuAxj4juIo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <br>
+                                <br>
+                                <img src="images/Receta Lulada completa.png" class="imagen-show text-center" >
+                        </p>
+                        <br>
+                </div>
+          
+          
+              </div>
+            </div>
+          </div>
+    
+          <div class="modal" id="myModal2">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header fondo-recetas">
+                      <h4 class="texto-recetas">Cholado bien calidoso</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body fondo-recetas">
+                            <p class="text-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0NVRtSOOX_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <br>
+                                    <br>
+                                    <img src="images/Receta chodalo completa.png" class="imagen-show text-center" >
+                            </p>
+                            <br>
+                    </div>
+              
+              
+                  </div>
+                </div>
+              </div>
         
+    
 <footer class="page-footer font-small stylish-color-dark  bg-info">
     <!--Call to action-->
     <div class="text-center py-3">  
